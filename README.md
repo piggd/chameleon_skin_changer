@@ -206,6 +206,10 @@ if (!_hasNVG) then {_newUnit removeWeapon "NVGoggles";};
 #include "custom\chameleon\dialog\SkinGui.hpp"
 //------------------------------------------------------------------------ Chameleon - Skin Changer End-------------------------------------------------------------------
 
+**NOTE if you already have texxBoxx installed you only need one common.hpp , comment out the second one by placing a // in front of it.
+
+ 
+
 Optional Additional Configuration:
 
 ** Enable Overpoch
@@ -284,3 +288,14 @@ playermenustart = [
 ];
 
 15.  Repack your mission pbo and upload to your sever.
+
+ 
+
+Original Framework and Dialog based on from Skin_Trader by boyd
+
+ 
+
+Email: dayzpiggd@gmail.com
+Website: Piggd Dayz Gaming
+Donate to piggd
+ 
