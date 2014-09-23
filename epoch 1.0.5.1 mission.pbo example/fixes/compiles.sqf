@@ -436,10 +436,13 @@ if (!isDedicated) then {
 
         // 120 sec timeout (12000 * 0.01)
         while { _timeOut < 12000 } do {
+// ------------------------------------------------------------------------ Can Hear Sound Black Screen Fix Start ------------------------------------------------------------------------
             if (dayz_clientPreload && dayz_authed) exitWith { 
                 endLoadingScreen;
 				diag_log "PLOGIN: Login loop completed!";
-			};            if (!isNil "_display") then {
+			};            
+// ------------------------------------------------------------------------ Can Hear Sound Black Screen Fix End  ------------------------------------------------------------------------
+			if (!isNil "_display") then {
                 if ( isNull _display ) then {
                         waitUntil { !dialog; };
                         startLoadingScreen ["","RscDisplayLoadCustom"];
